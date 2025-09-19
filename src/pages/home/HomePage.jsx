@@ -51,6 +51,7 @@ const HomeSection = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-[#ff914d] text-white px-8 py-3 rounded-full font-medium hover:bg-[#ff914d]/90 transition duration-300 shadow-lg"
+              onClick={() => window.open('https://wa.me/6285158166840')}
             >
               Pesan Sekarang
             </motion.button>
