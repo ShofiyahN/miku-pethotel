@@ -1,0 +1,16 @@
+export const invoke = async ({ payload }) => {
+  try {
+
+    let lastTicketNumber = 0;
+    let ticketTitle = '';
+
+    return {
+      ticketNumber: lastTicketNumber,
+      // ticketLink: ticketLink,
+    };
+    
+  } catch (err) {
+    console.error("Error invoke:", err);
+    return {};
+  }
+};
