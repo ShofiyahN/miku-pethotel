@@ -233,7 +233,7 @@ const ServicesSection = () => {
                     <span className="text-gray-600">Grooming basic 1x (min. 3 hari)</span>
                   </li> */}
                 </ul>
-                <button className="mt-8 w-full py-3 bg-amber-500 hover:bg-amber-600 text-white font-semibold rounded-lg transition duration-300" onClick={() => handleBooking('Kandang sendiri (15k/hari)')}>Pilih Paket</button>
+                <button className="mt-8 w-full py-3 bg-amber-500 hover:bg-amber-600 text-white font-semibold rounded-lg transition duration-300" onClick={() => handleBooking('Kandang MIKU (20k/hari)')}>Pilih Paket</button>
               </div>
             </motion.div>
             
