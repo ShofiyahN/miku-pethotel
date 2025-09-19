@@ -226,12 +226,12 @@ const ServicesSection = () => {
                     </svg>
                     <span className="text-gray-600">Update foto & video 2x sehari</span>
                   </li>
-                  <li className="flex items-start">
+                  {/* <li className="flex items-start">
                     <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                     <span className="text-gray-600">Grooming basic 1x (min. 3 hari)</span>
-                  </li>
+                  </li> */}
                 </ul>
                 <button className="mt-8 w-full py-3 bg-amber-500 hover:bg-amber-600 text-white font-semibold rounded-lg transition duration-300" onClick={() => handleBooking('Kandang sendiri (15k/hari)')}>Pilih Paket</button>
               </div>
